@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Practice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>CSS Selectors Practice</h1>
+      <p>This page uses different types of CSS selectors.</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Element Selector</h2>
+        <p>Headings and paragraphs are styled using element selectors.</p>
+      </section>
+
+      <section class="card">
+        <h2>Class Selector</h2>
+        <p>All the cards on this page share the same class called card.</p>
+      </section>
+
+      <section class="card" id="special">
+        <h2>ID Selector</h2>
+        <p>This card is styled differently using its unique ID.</p>
+      </section>
+
+      <section class="card">
+        <h2>Conflicting Rules</h2>
+        <p class="note" id="conflict">
+          This text has conflicting rules. The ID selector wins over the class
+          selector because it has higher specificity.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright 2026</p>
+    </footer>
+  </body>
+</html>

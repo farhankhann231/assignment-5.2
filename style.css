@@ -1,0 +1,67 @@
+/* Universal selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Element selector */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fb;
+  color: #333333;
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Grouping selector */
+h1,
+h2 {
+  color: #1a3c6e;
+  margin-bottom: 10px;
+}
+
+header,
+footer {
+  background-color: #1a3c6e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+main {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Class selector */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* ID selector */
+#special {
+  background-color: #fff3cd;
+  border: 2px solid #ffc107;
+}
+
+/* Conflicting rules: the class rule says blue, the ID rule says red */
+.note {
+  color: blue;
+}
+
+#conflict {
+  color: red;
+}
